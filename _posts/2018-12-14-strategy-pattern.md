@@ -10,8 +10,8 @@ share: false
 
 ## 1. Strategy Pattern [전략 패턴]
 
-- ```객체지향 기법```을 사용하여 Duck 이라는 수퍼클래스를 만든다음, 그 클래스를 확장하여 다른 모든 종류의 오리를 만들었습니다. (상속)          
-수정사항 1. 오리가 날아야해요.
+- ```객체지향 기법```을 사용하여 Duck 이라는 수퍼클래스를 만든다음, 그 클래스를 확장하여 다른 모든 종류의 오리를 만든다. (상속)          
+수정사항 1. 오리가 날아야해요.      
 ```java
 public abstract class Duck {
     public void quack() {
@@ -31,8 +31,7 @@ public abstract class Duck {
     }
 }
 ```
-              
-수정사항2. 유인용 새는 울지도 날아도 안 돼요.
+수정사항2. 유인용 새는 울지도 날아도 안 돼요.     
 ```java
 public class DecoyDuck extends Duck {
 
@@ -54,7 +53,7 @@ public class DecoyDuck extends Duck {
     }
 }
 ```
-수정사항3. 고무오리는 날면 안돼요.
+수정사항3. 고무오리는 날면 안돼요.        
 ```java
 public class RubberDuck extends Duck {
 
@@ -78,7 +77,7 @@ public class RubberDuck extends Duck {
 ```
 ```상속```을 사용한다면 서브클래스마다 오리의 행동이 바뀔 수 있는데도 모든 서브클래스에서 한 행동을 사용하도록 하는 것은 올바르지 않다.
 이렇게 오리가 하나 추가될 때마다, 기능이 추가될 때마다 많은 부분을 수정해야 한다.
-#### 인터페이스는 어떨까요?
+#### 인터페이스는 어떨까요?       
 ```java
 public interface Quackable {
     void quack();
@@ -271,6 +270,3 @@ public abstract class Duck {
 
 >Strategy Pattern   
 스트래티지패턴에서는 알고리즘군을 정의하고 각각을 캡슐화하여 교환해서 사용할 수 있도록 만든다. 스트래티지 패턴을 활용하면 알고리즘을 사용하는 클라이언트와는 독립적으로 알고리즘을 변경할 수 있다.
-
-
-언제 interface를 쓰고 언제 extneds를 쓸까요?

@@ -10,7 +10,7 @@ author:
   youtubeUser:
   youtubeChannel:
   twitter:
-  github:           yjshin81002
+  github:           shinyeonjong
   stackoverflow:
   quora:
   linkedin:
@@ -55,14 +55,12 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "About"
-    url:            "/about"
   - name:           "Archive"
     url:            "/archive"
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
+    url:            "https://github.com/shinyeonjong"
 
 # Sass
 sass:

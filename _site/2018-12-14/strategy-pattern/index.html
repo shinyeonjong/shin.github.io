@@ -291,37 +291,40 @@ public class MallardDuck extends Duck implements Flyable, Quackable {
 </code></pre></div>    </div>
     <h4 id="동적으로-행동을-지정하는-방법">동적으로 행동을 지정하는 방법</h4>
   </li>
-  <li>Duck클래스에 <code class="highlighter-rouge">setter</code>메소드를 만든다.
-```java
-public void setFlyBehavior(FlyBehavior flyBehavior) {
- this.flyBehavior = flyBehavior;
-}</li>
+  <li>Duck클래스에 <code class="highlighter-rouge">setter</code>메소드를 만든다.</li>
 </ol>
 
-<p>public void setQuackBehavior(QuackBehavior quackBehavior) {
-    this.quackBehavior = quackBehavior;
-}</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2. ```ModelDuck``` 예제. 
-```java
-public class DuckSimulator {
-    public static void main(String[] args) {
-        Duck mallardDuck = new MallardDuck();
-        mallardDuck.performFly();
-        mallardDuck.performQuack();
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public void setFlyBehavior(FlyBehavior flyBehavior) {
+    this.flyBehavior = flyBehavior;
+}
 
-        Duck model = new ModelDuck();
-        model.performFly();
-        model.setFlyBehavior(new FlyRocketPowered());
-        model.performFly();
-    }
+public void setQuackBehavior(QuackBehavior quackBehavior) {
+    this.quackBehavior = quackBehavior;
 }
 </code></pre></div></div>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//결과</span>
-<span class="err">날개를</span> <span class="err">이용해</span> <span class="err">푸드덕</span>
-<span class="err">꽥</span>
-<span class="err">날지</span> <span class="err">않아요</span><span class="o">.</span>
-<span class="err">로켓</span> <span class="err">추진으로</span> <span class="err">날아갑니다</span><span class="o">.</span>
-</code></pre></div></div>
+<ol>
+  <li><code class="highlighter-rouge">ModelDuck</code> 예제.
+    <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">DuckSimulator</span> <span class="o">{</span>
+ <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+     <span class="n">Duck</span> <span class="n">mallardDuck</span> <span class="o">=</span> <span class="k">new</span> <span class="n">MallardDuck</span><span class="o">();</span>
+     <span class="n">mallardDuck</span><span class="o">.</span><span class="na">performFly</span><span class="o">();</span>
+     <span class="n">mallardDuck</span><span class="o">.</span><span class="na">performQuack</span><span class="o">();</span>
+
+     <span class="n">Duck</span> <span class="n">model</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ModelDuck</span><span class="o">();</span>
+     <span class="n">model</span><span class="o">.</span><span class="na">performFly</span><span class="o">();</span>
+     <span class="n">model</span><span class="o">.</span><span class="na">setFlyBehavior</span><span class="o">(</span><span class="k">new</span> <span class="n">FlyRocketPowered</span><span class="o">());</span>
+     <span class="n">model</span><span class="o">.</span><span class="na">performFly</span><span class="o">();</span>
+ <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>//결과
+날개를 이용해 푸드덕
+꽥
+날지 않아요.
+로켓 추진으로 날아갑니다.
+</code></pre></div>    </div>
+  </li>
+</ol>
 
 <h4 id="a는-b이다-보다-a에는-b가-있다가-나을-수-있습니다">“A는 B이다.” 보다 “A에는 B가 있다.”가 나을 수 있습니다.</h4>
 <blockquote>

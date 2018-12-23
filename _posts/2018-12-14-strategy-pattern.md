@@ -221,7 +221,8 @@ public class MallardDuck extends Duck {
 ```
 #### 동적으로 행동을 지정하는 방법
 1. Duck클래스에 ```setter```메소드를 만든다.
-```java
+
+```
 public void setFlyBehavior(FlyBehavior flyBehavior) {
     this.flyBehavior = flyBehavior;
 }
@@ -245,7 +246,7 @@ public class DuckSimulator {
     }
 }
 ```
-```java
+```
 //결과
 날개를 이용해 푸드덕
 꽥

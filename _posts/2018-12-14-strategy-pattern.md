@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "strategy pattern"
+title: "전략 패턴"
 description: "strategy pattern"
 date: 2018-12-14
 tags: [strategy, pattern]

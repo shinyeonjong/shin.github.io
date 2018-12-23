@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "observer pattern"
+title: "옵저버 패턴"
 description: "observer pattern"
 date: 2018-12-22
 tags: [observer, pattern]

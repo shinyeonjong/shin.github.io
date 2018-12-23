@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138a8043-1e21-4ec4-a254-458b35ff0000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-12-22-observer-pattern.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-14-strategy-pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-12-14-strategy-pattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018-12-14/strategy-pattern/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018-12-14/strategy-pattern/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/archive/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-12-22-observer-pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-12-22-observer-pattern.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +42,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="29" />
-          <entry key="md" value="273" />
+          <entry key="md" value="278" />
           <entry key="yml" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="29" />
-          <entry key="Markdown" value="273" />
+          <entry key="Markdown" value="278" />
           <entry key="YAML" value="124" />
         </counts>
       </usages-collector>
@@ -113,8 +106,14 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-12-22-observer-pattern.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+                <folding>
+                  <element signature="e#115#116#0" expanded="true" />
+                  <element signature="e#165#166#0" expanded="true" />
+                  <element signature="e#116#117#0" expanded="true" />
+                  <element signature="e#181#182#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -200,7 +199,7 @@
     <property name="SearchEverywhereHistoryKey" value="index.html&#9;FILE&#9;file:///Users/shin-yeonjong/Documents/blog/_site/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545547544653" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545547769669" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -239,12 +238,12 @@
       <workItem from="1544707470041" duration="1017000" />
       <workItem from="1544833210459" duration="2540000" />
       <workItem from="1544926100131" duration="5070000" />
-      <workItem from="1544945312811" duration="2510000" />
+      <workItem from="1544945312811" duration="2701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15260000" />
+    <option name="totallyTimeSpent" value="15451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,7 +258,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21816881" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21816881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -274,7 +273,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27108434" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27108434" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.33659217" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -452,8 +451,14 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-12-22-observer-pattern.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <folding>
+              <element signature="e#115#116#0" expanded="true" />
+              <element signature="e#165#166#0" expanded="true" />
+              <element signature="e#116#117#0" expanded="true" />
+              <element signature="e#181#182#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

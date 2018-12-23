@@ -2,7 +2,7 @@
 layout: post
 title: "observer pattern"
 description: "observer pattern"
-date: 2018-12-14
+date: 2018-12-22
 tags: [observer, pattern]
 comments: false
 share: false

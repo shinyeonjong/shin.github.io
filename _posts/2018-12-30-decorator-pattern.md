@@ -83,9 +83,6 @@ public abstract class Beverage {
 데코레이터 패턴에서는 상속을 이용해 형식을 맞추는것, 행동을 물려받는것은 아님
  */
 public abstract class CondimentDecorator extends Beverage {
-    /*
-    추상 메소드로 구현한 이유 : 
-     */
     public abstract String getDescription();
 }
 ```

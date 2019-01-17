@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MVC 패턴</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" type="text/css">
+
+  <!-- Font -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for shinyeonjong" href="/feed.xml" />
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>MVC 패턴 | shinyeonjong</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="MVC 패턴" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="mvc pattern" />
+<meta property="og:description" content="mvc pattern" />
+<link rel="canonical" href="http://localhost:4000/2019-01-16/mvc-pattern/" />
+<meta property="og:url" content="http://localhost:4000/2019-01-16/mvc-pattern/" />
+<meta property="og:site_name" content="shinyeonjong" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-01-16T00:00:00+09:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2019-01-16/mvc-pattern/","headline":"MVC 패턴","dateModified":"2019-01-16T00:00:00+09:00","datePublished":"2019-01-16T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019-01-16/mvc-pattern/"},"description":"mvc pattern","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+  <!-- Google Analytics -->
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+
+</head>
+
+<body>
+  <div class="content-container">
+    <header>
+  <div class="header-small">
+    <a href="http://localhost:4000">shinyeonjong</a>
+  </div>
+</header>
+<div class="post">
+  <div class="post-title">MVC 패턴</div>
+  <span class="post-date">
+    <time>16 Jan 2019</time>
+  </span>
+  <div class="post-tag">
+    <ul>
+      
+      <li>
+        <a href="http://localhost:4000/tags#mvc">
+          <span>mvc</span>
+        </a>
+      </li>
+      
+      
+      <li>
+        <a href="http://localhost:4000/tags#pattern">
+          <span>pattern</span>
+        </a>
+      </li>
+      
+      
+    </ul>
+  </div>
+
+  <h2 id="mvc-패턴">MVC 패턴</h2>
+
+<h4 id="model-view-controller">Model View Controller</h4>
+
+<ul>
+  <li>Model : 순수한 데이터 원형    <br />
+ 역할1. Subject 역할 (Controller 에게 notify)</li>
+  <li>Controller : 조정자, 매니저   <br />
+역할1. 모델을 생성한다.    <br />
+역할2. 모델의 옵저버.     <br />
+역할3. 뷰 생성     <br />
+역할4. 뷰에게 모델을 전달   <br />
+역할5. 뷰의 액션을 처리</li>
+  <li>View : 화면   <br />
+역할1. 모델에 기반하여 렌더링 처리      <br />
+역할2. 입력 처리를 컨트롤러에게 위임</li>
+</ul>
+
+<p><strong>Q.</strong>
+<code class="highlighter-rouge">Model</code>에 기반하여 렌더링 하는것이  <code class="highlighter-rouge">View</code>라면 <code class="highlighter-rouge">Model</code>의 수신을 <code class="highlighter-rouge">View</code> 가 받아야 하지 않은가?    <br />
+즉, Observer는 <code class="highlighter-rouge">View</code>가 아닌가?         <br />
+<strong>A.</strong> 
+보통은 <code class="highlighter-rouge">Model</code>의 변화를 <code class="highlighter-rouge">View</code>가 수신하여 그릴수 없다.
+<code class="highlighter-rouge">View</code>는 전체 작업 과정 중 일부만 그리게 되어있어 <code class="highlighter-rouge">Controller</code>가 전체를 알고 있고 데이터의 후처리 또는 <code class="highlighter-rouge">Controller</code>에 상황을 더 넣어 준다든지 이러한 추가 작업을한 <code class="highlighter-rouge">Model</code>도 넣어주기 때문에 <code class="highlighter-rouge">View</code>가 그냥 수신한다 해도 방법이 없다.</p>
+
+<p><strong>Q.</strong>
+<code class="highlighter-rouge">Controller</code>는 누가 만들었을까?<br />
+<code class="highlighter-rouge">Model</code> 과 <code class="highlighter-rouge">View</code>는 <code class="highlighter-rouge">Controller</code>가 만들었을텐데…     <br />
+<strong>A.</strong> 
+라우터, 앱, 스프링에서는 MVC라는 그 전체 framework</p>
+
+
+
+  <!-- Disqus -->
+  
+
+</div>
+
+
+    <!-- Documents about icons are here: http://fontawesome.io/icons/ -->
+<div class="footer">
+  <hr />
+  <div class="footer-link">
+    
+	
+	
+	
+	
+
+    
+
+    
+    <a href="https://github.com/shinyeonjong"><i class="fa fa-github" aria-hidden="true"></i></a>
+    
+	
+	
+	
+	
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+
+    
+
+    
+
+    
+    <a href="mailto:yjshin81002@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    
+
+  </div>
+  © 2017 Kiko. All rights reserved.
+</div>
+
+  </div>
+</body>
+</html>

@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138a8043-1e21-4ec4-a254-458b35ff0000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/design-pattern.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/extends.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/strategy_pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/strategy_pattern.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-14-strategy-pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/strategy-pattern(2018-12-14).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-30-decorator-pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-12-30-decorator-pattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018-12-14/strategy-pattern/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018-12-22/decorator-pattern/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018-12-22/decorator-pattern/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/archive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2019-02-09/strategy-pattern/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019-02-09/strategy-pattern/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/strategy_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/strategy_pattern.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +52,7 @@
         <counts>
           <entry key="html" value="21" />
           <entry key="markdown" value="2" />
-          <entry key="md" value="40" />
+          <entry key="md" value="41" />
           <entry key="png" value="4" />
           <entry key="yml" value="8" />
         </counts>
@@ -68,14 +61,14 @@
         <counts>
           <entry key="HTML" value="21" />
           <entry key="Image" value="4" />
-          <entry key="Markdown" value="42" />
+          <entry key="Markdown" value="43" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="29" />
-          <entry key="md" value="3283" />
+          <entry key="md" value="3306" />
           <entry key="yml" value="128" />
         </counts>
       </usages-collector>
@@ -83,7 +76,7 @@
         <counts>
           <entry key="HTML" value="29" />
           <entry key="JAVA" value="8" />
-          <entry key="Markdown" value="3275" />
+          <entry key="Markdown" value="3298" />
           <entry key="YAML" value="128" />
         </counts>
       </usages-collector>
@@ -96,7 +89,19 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="255">
-                <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+                <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/strategy-pattern(2018-12-14).md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="178">
+                <caret line="77" selection-start-line="77" selection-end-line="78" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -107,8 +112,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <first_editor relative-caret-position="126">
+                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
                 <folding>
                   <element signature="e#127#128#0" expanded="true" />
                   <element signature="e#159#160#0" expanded="true" />
@@ -142,11 +147,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/strategy_pattern.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1320">
@@ -160,16 +160,11 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="356">
-                <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" selection-end-column="3" />
+                <caret line="114" selection-start-line="114" selection-end-line="114" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/extends.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -287,7 +282,7 @@
     <property name="SearchEverywhereHistoryKey" value="gem&#9;null&#9;null&#10;index.html&#9;FILE&#9;file:///Users/shin-yeonjong/Documents/blog/_site/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549788838137" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549980150449" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -339,12 +334,12 @@
       <workItem from="1547643264042" duration="2972000" />
       <workItem from="1548770374183" duration="3873000" />
       <workItem from="1549765839398" duration="285000" />
-      <workItem from="1549766151282" duration="8519000" />
+      <workItem from="1549766151282" duration="10078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32245000" />
+    <option name="totallyTimeSpent" value="33804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +354,7 @@
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2267525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2267525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -374,7 +369,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24022347" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39944133" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.33519554" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -592,24 +587,11 @@
     <entry file="file://$USER_HOME$/Desktop/strategy_pattern.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/strategy-pattern(2018-12-14).md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2790">
-            <caret line="186" column="32" lean-forward="true" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/strategy_pattern.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/style-test-ko.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="356">
-            <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" selection-end-column="3" />
+            <caret line="114" selection-start-line="114" selection-end-line="114" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -629,17 +611,30 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
-            <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/strategy-pattern(2018-12-14).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="178">
+            <caret line="77" selection-start-line="77" selection-end-line="78" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/strategy_pattern.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <first_editor relative-caret-position="126">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             <folding>
               <element signature="e#127#128#0" expanded="true" />
               <element signature="e#159#160#0" expanded="true" />

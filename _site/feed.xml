@@ -8,6 +8,7 @@
       <item>
         <title>전략 패턴</title>
         <description>&lt;h2 id=&quot;1-전략-패턴-strategy-pattern&quot;&gt;1. 전략 패턴 [Strategy Pattern]&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;전략 패턴 이란?&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;전략 패턴 이란 행동은 같으나 행위가 다를때 상속이 아닌 &lt;code class=&quot;highlighter-rouge&quot;&gt;구성&lt;/code&gt;을 활용하는 패턴이다.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -17,7 +18,7 @@
 
 &lt;hr /&gt;
 &lt;p&gt;변하는 부분과 변하지 않는 부분을 분리하고, 바뀌는 부분은 따로 뽑아서 캡슐화시킨다. 캡슐화하여 교환해서 사용할 수 있도록 만든다.
-&lt;img src=&quot;/images/strategy_pattern.png&quot; alt=&quot;Large example image&quot; title=&quot;Large example image&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/strategy_pattern.jpeg&quot; alt=&quot;Large example image&quot; title=&quot;Large example image&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;캐릭터-구조&quot;&gt;캐릭터 구조&lt;/h5&gt;
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;abstract&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Character&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;

@@ -9,6 +9,7 @@ share: true
 ---
 
 ## 1. 전략 패턴 [Strategy Pattern]
+**전략 패턴 이란?**
 > 전략 패턴 이란 행동은 같으나 행위가 다를때 상속이 아닌 ```구성```을 활용하는 패턴이다.
     
 **왜 상속이 아닌 구성을 활용할까?**      
@@ -16,7 +17,7 @@ share: true
 
 ---   
 변하는 부분과 변하지 않는 부분을 분리하고, 바뀌는 부분은 따로 뽑아서 캡슐화시킨다. 캡슐화하여 교환해서 사용할 수 있도록 만든다.
-![Large example image](/images/strategy_pattern.png "Large example image"){: .center-image}
+![Large example image](/images/strategy_pattern.jpeg "Large example image"){: .center-image}
 
 ##### 캐릭터 구조
 ```java

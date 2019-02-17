@@ -63,7 +63,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="29" />
-          <entry key="md" value="3600" />
+          <entry key="md" value="3602" />
           <entry key="yml" value="128" />
         </counts>
       </usages-collector>
@@ -71,7 +71,7 @@
         <counts>
           <entry key="HTML" value="29" />
           <entry key="JAVA" value="8" />
-          <entry key="Markdown" value="3592" />
+          <entry key="Markdown" value="3594" />
           <entry key="YAML" value="128" />
         </counts>
       </usages-collector>
@@ -107,8 +107,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <first_editor relative-caret-position="147">
+                <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
                 <folding>
                   <element signature="e#127#128#0" expanded="true" />
                   <element signature="e#159#160#0" expanded="true" />
@@ -298,12 +298,12 @@
       <workItem from="1548770374183" duration="3873000" />
       <workItem from="1549765839398" duration="285000" />
       <workItem from="1549766151282" duration="12229000" />
-      <workItem from="1550374595253" duration="142000" />
+      <workItem from="1550374595253" duration="519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36097000" />
+    <option name="totallyTimeSpent" value="36474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,8 +585,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <first_editor relative-caret-position="147">
+            <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
             <folding>
               <element signature="e#127#128#0" expanded="true" />
               <element signature="e#159#160#0" expanded="true" />

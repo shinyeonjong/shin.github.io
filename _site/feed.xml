@@ -6,6 +6,20 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>옵저버 패턴</title>
+        <description>&lt;h2 id=&quot;1-옵저버-패턴-observer-pattern&quot;&gt;1. 옵저버 패턴 [Observer Pattern]&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;옵저버 패턴 이란?&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;객체와 객체 간 의존성 없이도 객체의 상태변화를 알 수 있는 것이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 12 Feb 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2019-02-12/observer-pattern/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-02-12/observer-pattern/</guid>
+      </item>
+    
+      <item>
         <title>전략 패턴</title>
         <description>&lt;h2 id=&quot;1-전략-패턴-strategy-pattern&quot;&gt;1. 전략 패턴 [Strategy Pattern]&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;전략 패턴이란?&lt;/strong&gt;&lt;/p&gt;

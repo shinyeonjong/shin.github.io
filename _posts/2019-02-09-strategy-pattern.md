@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "전략 패턴"
-description: "strategy pattern"
+description: "Strategy Pattern"
 date: 2019-02-09
 tags: [strategy, pattern]
 comments: true
@@ -14,10 +14,18 @@ share: true
 
 **구성(composition)을 활용하는 것이란?**
 > A is B 관계가 아닌 A has B (ex. Character 에는 ```AttackBehavior```와```DefendBehavior```가 있다.)             
-이런 식으로 합쳐지는 것을 ```구성(composition)```을 이용하는 것이라고 부른다.
+관계를 ```구성(composition)```을 이용하는 것이라고 부른다.
 구성을 이용하면 유연성을 크게 향상시킬 수 있다.
 
 **왜 구성을 활용할까?**      
+
+
+
+
+
+
+
+ㅎ
 >상속을 활용하면 불필요한 상위 프로퍼티들을 가지고 있을 수 있고 기능이 추가, 수정 될 때마다 많은 부분을 수정해야 하기 때문이다.       
 인터페이스를 활용하면 구현된 코드가 없기때문에 ```코드 재사용```을 할수 없다는 문제점이 있다.       
      

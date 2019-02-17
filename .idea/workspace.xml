@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138a8043-1e21-4ec4-a254-458b35ff0000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-02-12-observer-pattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019-02-09/strategy-pattern/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019-02-09/strategy-pattern/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/archive/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +63,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="29" />
-          <entry key="md" value="3592" />
+          <entry key="md" value="3600" />
           <entry key="yml" value="128" />
         </counts>
       </usages-collector>
@@ -78,7 +71,7 @@
         <counts>
           <entry key="HTML" value="29" />
           <entry key="JAVA" value="8" />
-          <entry key="Markdown" value="3584" />
+          <entry key="Markdown" value="3592" />
           <entry key="YAML" value="128" />
         </counts>
       </usages-collector>
@@ -305,12 +298,12 @@
       <workItem from="1548770374183" duration="3873000" />
       <workItem from="1549765839398" duration="285000" />
       <workItem from="1549766151282" duration="12229000" />
-      <workItem from="1550374595253" duration="83000" />
+      <workItem from="1550374595253" duration="142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36038000" />
+    <option name="totallyTimeSpent" value="36097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,7 +318,7 @@
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,7 +333,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39944133" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39944133" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.33519554" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />

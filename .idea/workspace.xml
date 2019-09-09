@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138a8043-1e21-4ec4-a254-458b35ff0000" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,19 +28,21 @@
     <session id="-199566188">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,70 +80,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-02-12-observer-pattern.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-12-22-observer-pattern.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="147">
-                <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-                <folding>
-                  <element signature="e#127#128#0" expanded="true" />
-                  <element signature="e#159#160#0" expanded="true" />
-                  <element signature="e#195#196#0" expanded="true" />
-                  <element signature="e#239#240#0" expanded="true" />
-                  <element signature="e#275#276#0" expanded="true" />
-                  <element signature="e#319#320#0" expanded="true" />
-                  <element signature="e#434#435#0" expanded="true" />
-                  <element signature="e#486#487#0" expanded="true" />
-                  <element signature="e#553#554#0" expanded="true" />
-                  <element signature="e#605#606#0" expanded="true" />
-                  <element signature="e#206#207#0" expanded="true" />
-                  <element signature="e#248#249#0" expanded="true" />
-                  <element signature="e#456#457#0" expanded="true" />
-                  <element signature="e#499#500#0" expanded="true" />
-                  <element signature="e#718#719#0" expanded="true" />
-                  <element signature="e#760#761#0" expanded="true" />
-                  <element signature="e#150#151#0" expanded="true" />
-                  <element signature="e#192#193#0" expanded="true" />
-                  <element signature="e#290#291#0" expanded="true" />
-                  <element signature="e#331#332#0" expanded="true" />
-                  <element signature="e#157#158#0" expanded="true" />
-                  <element signature="e#202#203#0" expanded="true" />
-                  <element signature="e#302#303#0" expanded="true" />
-                  <element signature="e#346#347#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -204,9 +143,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="666" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="774" />
     <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -222,23 +162,13 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,12 +228,16 @@
       <workItem from="1548770374183" duration="3873000" />
       <workItem from="1549765839398" duration="285000" />
       <workItem from="1549766151282" duration="12229000" />
-      <workItem from="1550374595253" duration="519000" />
+      <workItem from="1550374595253" duration="1500000" />
+      <workItem from="1550589878421" duration="263000" />
+      <workItem from="1551179352118" duration="87000" />
+      <workItem from="1561814556005" duration="8000" />
+      <workItem from="1561856502358" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36474000" />
+    <option name="totallyTimeSpent" value="37866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,10 +249,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24821173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,7 +266,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39944133" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.39944133" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.33519554" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -511,9 +444,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/summary.md" />
     <entry file="file://$PROJECT_DIR$/_posts/plugin-emoji.md" />
     <entry file="file://$PROJECT_DIR$/images/extends.png" />
-    <entry file="file://$USER_HOME$/Desktop/strategy_pattern.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/strategy_pattern.png" />
     <entry file="file://$PROJECT_DIR$/images/strategy_pattern.png" />
     <entry file="file://$PROJECT_DIR$/_posts/strategy-pattern(2018-12-14).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -562,6 +493,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-12-22-observer-pattern.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="247">
+            <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-12-observer-pattern.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -572,47 +513,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-12-22-observer-pattern.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-09-strategy-pattern.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="147">
-            <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-            <folding>
-              <element signature="e#127#128#0" expanded="true" />
-              <element signature="e#159#160#0" expanded="true" />
-              <element signature="e#195#196#0" expanded="true" />
-              <element signature="e#239#240#0" expanded="true" />
-              <element signature="e#275#276#0" expanded="true" />
-              <element signature="e#319#320#0" expanded="true" />
-              <element signature="e#434#435#0" expanded="true" />
-              <element signature="e#486#487#0" expanded="true" />
-              <element signature="e#553#554#0" expanded="true" />
-              <element signature="e#605#606#0" expanded="true" />
-              <element signature="e#206#207#0" expanded="true" />
-              <element signature="e#248#249#0" expanded="true" />
-              <element signature="e#456#457#0" expanded="true" />
-              <element signature="e#499#500#0" expanded="true" />
-              <element signature="e#718#719#0" expanded="true" />
-              <element signature="e#760#761#0" expanded="true" />
-              <element signature="e#150#151#0" expanded="true" />
-              <element signature="e#192#193#0" expanded="true" />
-              <element signature="e#290#291#0" expanded="true" />
-              <element signature="e#331#332#0" expanded="true" />
-              <element signature="e#157#158#0" expanded="true" />
-              <element signature="e#202#203#0" expanded="true" />
-              <element signature="e#302#303#0" expanded="true" />
-              <element signature="e#346#347#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="375">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
           </first_editor>
           <second_editor />
         </state>
